@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" modified="2023-05-17T09:57:20.920Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wvvlrZo9Mb8sf_KlDeRL" version="21.2.9" type="device">
+  <diagram name="Page-1" id="fXgPID4ufflYHqLD-xHH">
+    <mxGraphModel dx="2284" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yak2YQmVVdhmxy9BodtE-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="120" width="730" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-28" value="«interface»&lt;br&gt;&lt;b&gt;Product&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-29" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.436;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-31" target="yak2YQmVVdhmxy9BodtE-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="380" as="sourcePoint" />
+            <mxPoint x="500" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-30" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-32" target="yak2YQmVVdhmxy9BodtE-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="380" as="sourcePoint" />
+            <mxPoint x="208" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductA&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductB&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="360" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FactoryInterface&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createProduct(Type): Product&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-35" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-34" target="yak2YQmVVdhmxy9BodtE-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="550" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-38" value="public Product createProduct(Type type) {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;switch(type):&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;case Type.A:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;return new ProductA();&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;break;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;case Type.B:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return new ProductB();&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;break;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;default:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;throw Exception(&quot;msg&quot;);&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="780" y="210" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=125;exitPerimeter=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-38" target="yak2YQmVVdhmxy9BodtE-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="480" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="570" width="1230" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-43" value="«interface»&lt;br&gt;&lt;b&gt;Product&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.436;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-46" target="yak2YQmVVdhmxy9BodtE-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="830" as="sourcePoint" />
+            <mxPoint x="500" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-45" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-47" target="yak2YQmVVdhmxy9BodtE-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="830" as="sourcePoint" />
+            <mxPoint x="208" y="721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductA&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="810" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductB&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="810" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Creator&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createProduct(Type): Product&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-49" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-48" target="yak2YQmVVdhmxy9BodtE-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="sourcePoint" />
+            <mxPoint x="550" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreatorA&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createProduct():Product&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="475" y="810" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreatorB&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createProduct():Product&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="810" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="805" y="830" as="sourcePoint" />
+            <mxPoint x="700" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-57" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.436;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="592" y="829" as="sourcePoint" />
+            <mxPoint x="700" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FactoryInterface&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createCreator(Type): Creator&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="990" y="640" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-61" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-60" target="yak2YQmVVdhmxy9BodtE-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="992.5" y="684.5" as="sourcePoint" />
+            <mxPoint x="652.5" y="684.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-62" value="public Product createProduct(){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return new ProductA();&lt;br&gt;}" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="930" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-63" value="public Product createProduct(){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return new ProductB();&lt;br&gt;}" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="930" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-64" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-62" target="yak2YQmVVdhmxy9BodtE-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="800" as="sourcePoint" />
+            <mxPoint x="720" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yak2YQmVVdhmxy9BodtE-68" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yak2YQmVVdhmxy9BodtE-63" target="yak2YQmVVdhmxy9BodtE-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="800" as="sourcePoint" />
+            <mxPoint x="720" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
